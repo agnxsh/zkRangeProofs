@@ -4,7 +4,7 @@
 In 2017, Bünz, Bootle, Boneh, Poelstra, Wuille, and Maxwell published Bulletproofs, which dramatically improves proof performance both in terms of proof size and verification time. In addition, it allows for proving a much wider class of statements than just range proofs.</h4>
 
 <h2>Definitions</h2>
-<h4>Commitment — a commitment `Com(m)` to message `m` is hiding, which means it does not reveal `m`. It is also binding, which means that if you make a commitment to `m`, you cannot open it to a different message `m’`. In the context of Bulletproofs, commitment refers to a `Pedersen commitment``, which has the additional property of being `additively homomorphic`, which means that `Com(a) + Com(b) = Com(c)` only if `a + b = c`.
+<h4>Commitment — a commitment ``Com(m)`` to message `m` is hiding, which means it does not reveal `m`. It is also binding, which means that if you make a commitment to `m`, you cannot open it to a different message `m’`. In the context of Bulletproofs, commitment refers to a `Pedersen commitment``, which has the additional property of being `additively homomorphic`, which means that `Com(a) + Com(b) = Com(c)` only if `a + b = c`.
 
 Zero-knowledge proof — a proof that a certain statement is true, without revealing the secret that the statement is about. This is usually done by making a commitment to the secret that the statement is about, and sharing the commitment along with the proof.
 
